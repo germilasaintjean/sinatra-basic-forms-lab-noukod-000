@@ -11,6 +11,9 @@ get '/new' do
 end
 
 post '/' do
+@name = params[:name]
+@breed = params[:breed]
+@age = params[:age]
 
 end
 

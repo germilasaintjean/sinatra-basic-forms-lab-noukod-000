@@ -6,4 +6,8 @@ get '/' do
   erb :index
 end
 
+get '/new' do
+  erb :dsiplay_puppy
+end
+
 end

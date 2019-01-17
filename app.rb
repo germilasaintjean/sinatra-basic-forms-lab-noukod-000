@@ -7,7 +7,11 @@ get '/' do
 end
 
 get '/new' do
-  erb :dsiplay_puppy
+
+end
+
+post '/' do
+  
 end
 
 end

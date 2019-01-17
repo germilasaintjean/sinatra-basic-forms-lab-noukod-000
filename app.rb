@@ -7,13 +7,14 @@ get '/' do
 end
 
 get '/new' do
-erb :create_puppy
+  erb :create_puppy
 end
 
 post '/' do
-@name = params[:name]
-@breed = params[:breed]
-@age = params[:age]
+  @name = params[:name]
+  @breed = params[:breed]
+  @age = params[:age]
+  erb :display_puppy
 end
 
 end
